@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@keyframes border-color-change {
+  0% { border-color: #ef4444; /* red-500 */ }
+  25% { border-color: #3b82f6; /* blue-500 */ }
+  50% { border-color: #10b981; /* emerald-500 */ }
+  75% { border-color: #f59e0b; /* amber-500 */ }
+  100% { border-color: #ef4444; /* red-500 */ }
+}
+
+.animate-border-change {
+  animation: border-color-change 4s infinite alternate; /* Adjust duration and iteration as needed */
+}
