@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
 @keyframes border-color-change {
   0% { border-color: #ef4444; /* red-500 */ }
   25% { border-color: #3b82f6; /* blue-500 */ }
