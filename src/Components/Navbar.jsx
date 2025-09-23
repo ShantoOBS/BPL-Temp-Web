@@ -4,12 +4,12 @@ import logo from '../assets/logo.png'
 
 function Navbar({coinValue}) {
   return (
-   <div className="max-w-[1200px] mx-auto navbar bg-base-100 flex justify-between p-6 items-center">
+   <div className="max-w-[1200px] mx-auto navbar bg-base-100 flex flex-col lg:flex-row md:flex-row justify-between p-6 items-center ">
    
            <div>
              <img src={logo} alt="" />
            </div>
-           <div className="flex gap-4">
+           <div className="flex gap-4  flex-col lg:flex-row md:flex-row ">
    
              {
                ["Home", "Fixture", "Teams", "Schedules"].map(ele => (

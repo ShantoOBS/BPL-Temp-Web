@@ -3,7 +3,7 @@ import Selectedcard from './Seletedcard'
 
 const Selected=({purchasedPlayers,removePlayer,flag,setFlag}) =>{
   return (
-    <div className='max-w-[1150px] mx-auto'>
+    <div className='max-w-[1150px] mx-auto mb-8'>
 
       {
       purchasedPlayers.map(ele =><Selectedcard ele={ele} removePlayer={removePlayer}></Selectedcard>)

@@ -9,7 +9,7 @@ function Banner() {
     <div
       className="max-w-[1150px] mx-auto bg-cover text-center bg-center bg-black rounded-3xl  "
       style={{ backgroundImage: `url(${bannerImg})` }}
-    >
+      >
       <div className='py-10'>
 
 

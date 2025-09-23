@@ -1,4 +1,4 @@
-import React, { use ,useState } from 'react'
+import React, { use  } from 'react'
 import Cards from './Cards'
 const Card = ({ playersPromise, setCoinValue, coinValue, purchasedPlayers, setPurchasedPlayers }) => {
 
@@ -8,7 +8,7 @@ const Card = ({ playersPromise, setCoinValue, coinValue, purchasedPlayers, setPu
     
 
     return (
-        <div className='max-w-[1150px] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-4'>
+        <div className='max-w-[1150px] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-50'>
 
             {
                 playerData.map(ele => <Cards ele={ele} setCoinValue={setCoinValue} coinValue={coinValue}

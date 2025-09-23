@@ -5,6 +5,7 @@ import Available from './Components/Available'
 import Card from './Components/Card'
 import Selected from './Components/Selected'
 import { ToastContainer } from 'react-toastify';
+import Footer from './Components/Footer'
 
 
 const fetchPlayers = async () =>{
@@ -39,6 +40,7 @@ function App() {
        </Suspense>:<Selected flag={flag} setFlag={setFlag} purchasedPlayers={purchasedPlayers}  removePlayer={removePlayer}></Selected>
       }
        
+       <Footer></Footer>
      <ToastContainer />
     </>
   )

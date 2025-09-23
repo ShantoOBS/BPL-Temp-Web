@@ -10,7 +10,7 @@ const Seletedcard=({ele,removePlayer}) =>{
 
   return (
       
-          <div class=" shadow-sm flex justify-between rounded-2xl p-5 items-center my-4">
+          <div class=" shadow-sm flex justify-between rounded-2xl p-5 items-center my-4 mb-10">
            
              <div className='flex gap-2 items-center'>
                <img

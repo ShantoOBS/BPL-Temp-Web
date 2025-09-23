@@ -2,7 +2,7 @@ import React from 'react'
 
 function Available({setFlag,flag,purchasedPlayers}) {
   return (
-    <div className='max-w-[1150px] mx-auto flex justify-between my-6 font-bold' >
+    <div className='max-w-[1150px] mx-auto flex justify-between my-6 font-bold ' >
 
         <div>
             <p>
