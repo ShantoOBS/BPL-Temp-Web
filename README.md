@@ -4,6 +4,8 @@ Welcome to **Dream 11 Cricket Team Builder** — a sleek and intuitive web app t
 
 ![Image](https://github.com/user-attachments/assets/a7d0a813-fb5a-4c52-a5cb-13fcb3ad7b8a)
 
+## Live Demo: https://deranged-plte.surge.sh/
+
 ## 🚀 Features
 
 - ⚡ **Fast & Responsive UI** built with React and Tailwind CSS
